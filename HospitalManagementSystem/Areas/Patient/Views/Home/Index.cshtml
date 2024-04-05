@@ -1,0 +1,164 @@
+﻿
+<div>
+    <h1 class="text-center text-dark fw-bold" style="color:black; font-family:Georgia Extrabold,sans-serif;font-size:5em;" >
+        Hospital Management System
+    </h1>
+</div>
+
+@* <div class="row">
+    <marquee behavior="scroll" direction="left" class="text-center fw-bold"
+             style="color:black; font-family:Georgia Extrabold,sans-serif;font-size:7em;">
+        Welcome to Healthcare-Information-Management-System
+</marquee>
+</div> *@
+
+
+
+
+@* <div class="row" />
+<h2>Hospital Management System</h2>
+<div class="row">
+
+</div> *@
+@* <div class="text-center text-w">
+    <div class="text-right"> *@
+       @*  <form class="d-inline">
+            <div class="form-row justify-content-end">
+                <div class="col-auto">
+                    <input class="form-control" name="search" placeholder="Search" />
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </div>
+            </div>
+        </form> *@
+    @* </div> *@
+
+   @*  <form asp-action="Index" asp-controller="Home" method="get">
+        <div class="input-group row">
+            <input type="text" name="searchBy" placeholder="Search Hospital by Name / City / State " class="form-control" />
+            <div class="input-group-append">
+                <select name="search">
+                    <option value="Name">Name</option>
+                    <option value="City">City</option>
+                    <option value="State">State</option>
+
+                    <option value="All Hospitals">All Hospitals</option>
+                </select>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form> *@
+
+
+        <br />
+        <br/>
+
+    <div class="row">
+
+
+
+        <div class="col-8">
+            <h2 class="text-dark " style="color:black; font-family:Georgia,sans-serif;font-size:2em;">
+                Services:
+            </h2>
+
+
+            @* <p>
+            Hospital ......
+            </p> *@
+
+
+        </div>
+        
+
+        <div class="col-4 ">
+            <a asp-action="Explore" class="btn btn-danger btn-lg fw-bold ">Explore Hospitals </a>
+        </div>
+        
+        @* <br/>
+        <h6 class="text-black">
+            ( Click Here to see the List of Hospitals)
+        </h6>
+        
+        <br /> *@
+    </div>
+
+
+    <div class="row">
+        <h6 class="text-black offset-8">
+            ( Click Here to see the List of Hospitals)
+        </h6>
+    </div>
+
+
+   @*  <div class="row">
+        @foreach (var hospital in Model)
+        {
+            <div class="col-lg-3 col-md-6">
+                <div class="row p-2">
+                    <div class="col-12  p-1" style="border:1px solid #008cba; border-radius: 5px;" >
+                        <div class="card" style="border:0px;" >
+                            <img src="@hospital.ImageUrl" height="400px" width="600px" class="card-img-top rounded" />
+                            <div class="pl-1">
+                                <p class="card-title h5"><b style="color:#2c3e50">@hospital.Name</b></p>
+                                <p class="card-title text-black h6">Registeration No. : <b>@hospital.RegNo</b></p>
+                            </div>
+                           
+                            <div style="padding-left:5px;">
+                                <p>Visit Us: <b>@hospital.Address</b></p>
+                            </div>
+                            <div style="padding-left:5px;">
+                                <p>Contact Us: <b>@hospital.PhoneNumber</b></p>
+                                <p>Email Us: <b>@hospital.Email</b></p>
+
+                            </div>
+
+                            
+                        </div>
+                        <div>
+                            <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@hospital.Id">Details</a>
+                            <br/>
+                          
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div> *@
+
+
+
+</div>
+
+
+@* <br/>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="row">
+    <marquee behavior="scroll" direction="left" class="text-center fw-bold"
+             style="color:black; font-family:Georgia Extrabold,sans-serif;font-size:2em;">
+        Welcome to Healthcare-Information-Management-System
+    </marquee>
+</div> *@
+
+@* @section Scripts
+{
+    <script src="~/js/hospital.js"></script>
+}
+
+
+
+
+
+
+
+                             </div>
+</section> *@

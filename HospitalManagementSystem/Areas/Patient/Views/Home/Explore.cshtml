@@ -1,0 +1,79 @@
+﻿@model IEnumerable<HospitalManagementSystem.Models.Hospital>
+
+@{
+    ViewData["Title"] = "Explore";
+}
+
+@* <h1>Explore</h1> *@
+
+<h1 class="text-black fw-bold">Hospitals List</h1>
+
+<br/>
+
+<form asp-action="Explore" asp-controller="Home" method="get">
+    <div class="input-group">
+        <input type="text" name="searchBy" placeholder="Search Hospital by Name / City / State " class="form-control" />
+        <div class="input-group-append">
+            <select name="search">
+                <option value="Name">Name</option>
+                <option value="City">City</option>
+                <option value="State">State</option>
+
+                <option value="All Hospitals">All Hospitals</option>
+            </select>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+</form>
+
+<br/>
+<br />
+
+<div class="row">
+    @foreach (var hospital in Model)
+    {
+        <div class="col-lg-3 col-md-6">
+            <div class="row p-1">
+                <div class="col-12 p-1"    @* style="border: solid lightgreen; border-radius: 5px;"  *@ >
+                    <div class="card" style="border:0px;">
+                        <img src="@hospital.ImageUrl" height="400px" width="600px" class="card-img-top rounded" />
+                        <div class="pl-1">
+                            <p class="card-title h5 text-center"><b style="color:#2c3e50">@hospital.Name</b></p>
+                            <p class="card-title text-black h6">Registeration No. : <b>@hospital.RegNo</b></p>
+                        </div>
+
+                        <div style="padding-left:5px;">
+                            <h6>Visit Us: <b>@hospital.Address</b></h6>
+                        </div>
+                        <div style="padding-left:5px;">
+                            <h6>Contact Us: <b>@hospital.PhoneNumber</b></h6>
+                            <h6>Email Us: <b>@hospital.Email</b></h6>
+
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@hospital.Id">Details</a>
+                        <br />
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+
+
+@section Scripts
+{
+    <script src="~/js/hospital.js"></script>
+}
+
+</section>
+

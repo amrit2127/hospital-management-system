@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospitalManagementSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HospitalManagementSystem.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\encounters.jpg",
+      "PackagePath": "staticwebassets\\images\\encounters.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\hospitals.jpg",
+      "PackagePath": "staticwebassets\\images\\hospitals.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\0535cdab-1789-4e3d-ad16-cc97f323a7de.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0535cdab-1789-4e3d-ad16-cc97f323a7de.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\08d32a43-82a9-48c8-a82e-57cdfda4dd56.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\08d32a43-82a9-48c8-a82e-57cdfda4dd56.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\1964e284-ae8f-4809-b81f-151828772bf9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1964e284-ae8f-4809-b81f-151828772bf9.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\3ddd1436-ccd2-4e09-b91a-dfd378ff1724.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3ddd1436-ccd2-4e09-b91a-dfd378ff1724.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\45192da0-0cae-4f1c-8104-3c7e99d5f70e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\45192da0-0cae-4f1c-8104-3c7e99d5f70e.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\68ad5261-523c-4c2a-9487-348cdac02e6f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\68ad5261-523c-4c2a-9487-348cdac02e6f.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\85c5fddc-90d0-4c40-8549-04336243572e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\85c5fddc-90d0-4c40-8549-04336243572e.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\9986de73-5dce-4810-8b38-f818a9988aff.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\9986de73-5dce-4810-8b38-f818a9988aff.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\a492d9fc-7ed6-42ea-8a1f-f07961dbc4eb.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a492d9fc-7ed6-42ea-8a1f-f07961dbc4eb.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\a5babde9-49a9-4d1a-8aa1-aa2a484111de.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a5babde9-49a9-4d1a-8aa1-aa2a484111de.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\a60a977d-aa87-471f-aaac-d4ea8c7ed713.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a60a977d-aa87-471f-aaac-d4ea8c7ed713.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\b79afdb7-4e11-44fb-acd8-9e6a24e68415.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b79afdb7-4e11-44fb-acd8-9e6a24e68415.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\ce19b244-f85c-43ff-9631-feefe49d8234.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\ce19b244-f85c-43ff-9631-feefe49d8234.jpeg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\d0e00cce-2ac2-44a5-931a-544b63eed032.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d0e00cce-2ac2-44a5-931a-544b63eed032.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\dbbad027-8e24-4aec-9bcf-ca82fe3abc47.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dbbad027-8e24-4aec-9bcf-ca82fe3abc47.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\dcd6939f-e021-4d48-a8c5-85e1496f1aa7.webp",
+      "PackagePath": "staticwebassets\\images\\products\\dcd6939f-e021-4d48-a8c5-85e1496f1aa7.webp"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\f39c9a8a-9be0-4de8-abee-a4e830d8c5fb.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\f39c9a8a-9be0-4de8-abee-a4e830d8c5fb.jpg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\products\\f8f088f2-3db4-40b2-8bc0-9281e0d4021c.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\f8f088f2-3db4-40b2-8bc0-9281e0d4021c.jpeg"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\department.js",
+      "PackagePath": "staticwebassets\\js\\department.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\doctor.js",
+      "PackagePath": "staticwebassets\\js\\doctor.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\hospital.js",
+      "PackagePath": "staticwebassets\\js\\hospital.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\hospitaltype.js",
+      "PackagePath": "staticwebassets\\js\\hospitaltype.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HospitalManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HospitalManagementSystem.props",
+      "PackagePath": "build\\HospitalManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HospitalManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\HospitalManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HospitalManagementSystem.props",
+      "PackagePath": "buildTransitive\\HospitalManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

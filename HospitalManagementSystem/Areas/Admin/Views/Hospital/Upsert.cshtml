@@ -1,0 +1,144 @@
+﻿@model HospitalManagementSystem.Models.ViewModels.HospitalVM
+@{
+    ViewData["Title"] = "Upsert";
+    var title = Model.Hospital.Id != 0 ? "Edit Hospital" : "New Hospital";
+}
+<div>
+    <h2 class="text-black fw-bold text-lg-start ">@title</h2>
+</div>
+<div class="row container">
+    <div class="col-sm-6">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Hospital.Id != 0)
+            {
+                <input type="hidden" asp-for="@Model.Hospital.Id" />
+            }
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.Name"></label>
+                <input asp-for="Hospital.Name" class="form-control" />
+                <span asp-validation-for="Hospital.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.Description"></label>
+                <textarea asp-for="Hospital.Description" rows="2" class="form-control"></textarea>
+                <span asp-validation-for="Hospital.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.RegNo"></label>
+                <input asp-for="Hospital.RegNo" class="form-control" />
+                <span asp-validation-for="Hospital.RegNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.Email"></label>
+                <input asp-for="Hospital.Email" class="form-control" />
+                <span asp-validation-for="Hospital.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.Address"></label>
+                <input asp-for="Hospital.Address" class="form-control" />
+                <span asp-validation-for="Hospital.Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.Pincode"></label>
+                <input asp-for="Hospital.Pincode" class="form-control" />
+                <span asp-validation-for="Hospital.Pincode" class="text-danger"></span>
+            </div>
+
+             <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.PhoneNumber"></label>
+                <input asp-for="Hospital.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Hospital.PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.City"></label>
+                <input asp-for="Hospital.City" class="form-control" />
+                <span asp-validation-for="Hospital.City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark  fw-bold" asp-for="Hospital.State"></label>
+                <input asp-for="Hospital.State" class="form-control" />
+                <span asp-validation-for="Hospital.State" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark  fw-bold" asp-for="Hospital.Country"></label>
+                <input asp-for="Hospital.Country" class="form-control" />
+                <span asp-validation-for="Hospital.Country" class="text-danger"></span>
+            </div>
+            
+
+            <div class="form-group">
+                <label class="text-dark  fw-bold" asp-for="Hospital.ImageUrl"></label>
+                <input type="file" name="files" id="uploadBox" multiple class="form-control" />
+              @*   <span asp-validation-for="Hospital.Country" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Hospital.HospitalTypeId"></label>
+                @Html.DropDownListFor(m => Model.Hospital.HospitalTypeId, Model.HospitalTypeList, "Select type of Hospital", new { @class = "form-control" })
+                <span asp-validation-for="Hospital.HospitalTypeId" class="text-danger"></span>
+            </div>
+
+           
+            <div class="form-group">
+                @if (Model.Hospital.Id != 0)
+                {
+                    <partial name="_EditAndBackToListButton" />
+                }
+                else
+                {
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" onclick="return ValData()" class="btn btn-info form-control">Save</button>
+                        </div>
+
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-success form-control">
+                                Back To List
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-6">
+        @if (Model.Hospital.ImageUrl != null)
+        {
+            <img src="@Model.Hospital.ImageUrl" height="250" width="250" />
+        }
+    </div>
+</div>
+
+
+
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/ne2gvt6wosycl0kuf5clobb4b1lmrluikc2iphrn6qn4dp7i/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: "textarea",
+            plugins: "lists",
+            menubar: "file edit format"
+        })
+
+        function ValData() {
+            if (document.getElementById('uploadBox').value == "") {
+                swal("error", "Please Select Image !!!", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

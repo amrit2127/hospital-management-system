@@ -1,0 +1,106 @@
+﻿
+@model HospitalManagementSystem.Models.Hospital
+
+<h1 class="text-black">Details of Hospital</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="@Model.Id" />
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary text-light ml-0 row container">
+
+                <div class="col-12 col-md-9">
+                    <h1 class="text-white">@Model.Name</h1>
+                    <br/>
+
+                    <h2 class="text-white">Type of Hospital: @Model.HospitalType.Type</h2>
+                  
+                </div>
+            </div>
+
+
+
+            <div class="card-body">
+                <div class="container rounded p-2 bg-light">
+                    <div class="row col-10">
+                        <h5 class="text-black">Image:</h5>
+                        <img src="@Model.ImageUrl" width="130%" height="400px" class="rounded" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <h2 class="text-success">Info. of Hospital:</h2>
+                    <br/>
+                    <div class="row">
+                        <div class="col-8 col-lg-8">
+
+                            <div class="row pl-2">
+                                <h5 class="text-muted">Registeration No. : @Model.RegNo </h5>
+                            </div>
+                            <div class="row pl-2">
+                                <h5 class="text-muted">PinCode: @Model.Pincode </h5>
+                            </div>
+                           
+                            <div class="row pl-2">
+                                <h5>Description:</h5>
+                                <p class="text-secondary">@Html.Raw(Model.Description)</p>
+                            </div>
+
+                            <div class="row pl-2">
+                                <h5 class="text-muted">Visit Us At: @Model.Address </h5>
+                            </div>
+                             <div class="row pl-2">
+                            <h5 class="text-muted">City: @Model.City </h5>
+                            </div>
+                            <div class="row pl-2">
+                            <h5 class="text-muted">State: @Model.State </h5>
+                            </div>
+                            <div class="row pl-2">
+                                <h5 class="text-muted">Country: @Model.Country </h5>
+                            </div>
+                            <br/>
+
+
+                            <div class="row text-center pl-2" style="color:maroon; font-weight:bold">
+                                <div class="p-1 col-2 bg-secondary">
+                                    <div>Contact Us:</div>
+                                </div>
+                                <div class="p-1 col-3 ">
+                                    <div>@Model.PhoneNumber</div>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row text-center pl-2" style="color:maroon; font-weight:bold">
+                                <div class="p-1 col-2 bg-secondary">
+                                    <div>Email Us:</div>
+                                </div>
+                                <div class="p-1 col-4 ">
+                                    <div>@Model.Email</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-12 col-md-6 pb-1">
+                        <a asp-action="Index" class="btn btn-success form-control  btn-square btn-lg" style="height:50px;">Back to Home Page </a>
+                    </div>
+                    <div class="col-12 col-md-6 pb-1">
+                        <a asp-action="Departments" asp-controller="Home" asp-area="Patient" class="btn btn-success btn-square btn-lg form-control"
+                           style="height:50px;">
+                            View Departments
+                        </a>
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

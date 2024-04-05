@@ -1,0 +1,207 @@
+﻿@model HospitalManagementSystem.Models.Booking
+@using Microsoft.Extensions.Options
+@inject IOptions<HospitalManagementSystem.Utility.StripeSettings> stripe;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* <h1>Book Appointment</h1> *@
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row " style="border: solid black;">
+
+        <div class="col-11 m-3 p-3">
+            <h2 style="text-align:center" class="text-dark">Book Doctor's Appointment</h2>
+        </div>
+        <div class="col-8">
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label  asp-for="Name"></label>
+                </div>
+                <div class="col-8 ">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label asp-for="Email"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label asp-for="Address"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label asp-for="BookingDate"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="BookingDate" class="form-control type="data" value="datepicker" />
+                    <span asp-validation-for="BookingDate" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label asp-for="Adult"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="AdultCount" id="AdultCount" class="form-control" oninput="calculateTotal()" />
+                    <span asp-validation-for="AdultCount" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row m-2 p-2">
+                <div class="col-4 text-dark">
+                    <label asp-for="Children"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="ChildrenCount" id="ChildrenCount" class="form-control" oninput="calculateTotal()" />
+                    <span asp-validation-for="ChildrenCount" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div>
+
+
+                <div class="form-group row m-2 p-2">
+                    <div class="col-4 text-dark">
+                        <label>Total Amount</label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Total" class="form-control" disabled />
+                        <span asp-validation-for="Total" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                @{
+                    var orderTotalAmount = Model.Total * 100;
+                }
+                <script src="https://checkout.stripe.com/checkout.js"
+                        class="stripe-button"
+                        data-key="@stripe.Value.PublishableKey"
+                        data-amount="@orderTotalAmount"
+                        data-name="Pay now for Appointment"
+                        data-locale="auto"
+                        data-label="Pay"
+                        data-allow-remeber-me="false"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png">
+                </script>
+                <script>
+                    var el = document.getElementsByClassName('stripe-button-el');
+                    el[0].style.display = "none"
+                </script>
+
+            </div>
+            <div class="form-group row p-2 m-2">
+
+                <div class="col-4 offset-4">
+                    <button type="submit" value="Place Order" class="btn btn-dark form-control" onclick="confirmBooking()">
+                        Confirm
+                    </button>
+                </div>
+                <div class="col-4">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-dark form-control">
+                        Back To List
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+</form>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // $(function () {
+        //     // Set up datepicker with options
+        //     $(".datepicker").datepicker({
+        //         dateFormat: 'yy-mm-dd', // Specify the date format
+        //         minDate: new Date(), // Set minDate to disable past dates
+        //         changeYear: true, // Enable your dropdown
+        //         yearRange: "-100:+0" // Allow selection of the last 100 years
+        //     });
+        // });
+
+        $(function () {
+            // Get the current date
+            var currentDate = new Date();
+
+            // Set up datepicker with options
+            $(".datepicker").datepicker({
+                dateFormat: 'yy-mm-dd', // Specify the date format
+                minDate: today, // Set minimum selectable date to today
+                maxDate: new Date(today.getFullYear(), today.getMonth() + 1, 0), // Set maximum selectable date to end of the current month
+                changeYear: true, // Enable your dropdown
+                changeMonth: true,
+                yearRange: "-100:+0", // Allow selection of the last 100 years
+                // Set the initial date to the current date
+                defaultDate: currentDate,
+                // On close of the datepicker, set the selected date as the default date
+                onClose: function (selectedDate) {
+                    var selectedDateObj = new Date(selectedDate);
+                    if (selectedDateObj < currentDate) {
+                        $(this).datepicker("setDate", currentDate);
+                    }
+                }
+            });
+        });
+
+
+
+            // Trigger the total calculation on input
+            $("#AdultCount, #ChildrenCount").on('input', calculateTotal);
+
+            // Confirm booking on submit
+            $("form").submit(confirmBooking);
+        });
+        function calculateTotal() {
+            var adultTicketPrice = 900;
+            var childrenTicketPrice = 700;
+
+            var adultCount = parseInt($("#AdultCount").val()) || 0; 
+            var childrenCount = parseInt($("#ChildrenCount").val()) || 0;
+
+            var totalAmount = (adultCount * adultTicketPrice) + (childrenCount * childrenTicketPrice);
+
+            $("#Total").val(totalAmount);
+        }
+
+        function confirmBooking() {
+            // You can add additional logic here if needed before form submission
+            // For now, directly submit the form
+            $("form").submit();
+        }
+    </script>
+    <!-- Add these script tags in your HTML file -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+}
+
+

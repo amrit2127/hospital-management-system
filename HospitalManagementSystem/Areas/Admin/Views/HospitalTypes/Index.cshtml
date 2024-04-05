@@ -1,0 +1,25 @@
+﻿<div class="row">
+    <div class="col-9">
+        <h2 class="text-black">Types of Hospitals</h2>
+    </div>
+    <div class="col-3">
+        <a asp-action="Upsert" class="btn btn-info form-control">
+            <i class="fas fa-plus"></i>&nbsp;Add New Type
+        </a>
+    </div>
+</div>
+
+<div class="container rounded p-2 m-2" style="border: solid black;">
+    <table id="tblData" class="table table-active table-bordered table-hover table-dark table-striped text-dark ">
+        <thead>
+            <tr>
+                <th class="text-white fw-bold">HospitalType</th>
+                <th class="text-white fw-bold">Actions</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/js/hospitaltype.js"></script>
+}

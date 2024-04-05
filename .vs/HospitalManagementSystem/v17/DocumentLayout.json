@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem.models\\hospitaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7A22BB-61FB-47F0-B6C3-02AD0F5A8C93}|HospitalManagementSystem.Models\\HospitalManagementSystem.Models.csproj|solutionrelative:hospitalmanagementsystem.models\\hospitaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\akshu\\hospitalmanagementsystem - chngess\\hospitalmanagementsystem\\hospitalmanagementsystem\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F755BF8F-3741-45FE-B743-811D96FF9FB5}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Booking.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\Booking.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Booking.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:27:28.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Department.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\Department.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Department.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:26:59.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Patient.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\Patient.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Patient.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\Patient.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:26:44.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenderType.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\GenderType.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\GenderType.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\GenderType.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\GenderType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:26:34.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Hospital.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\Hospital.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Hospital.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\Hospital.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:26:20.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HospitalType.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\HospitalType.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\HospitalType.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\HospitalType.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\HospitalType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:25:47.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem.Models\\Doctor.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem.Models\\Doctor.cs",
+              "RelativeToolTip": "HospitalManagementSystem.Models\\Doctor.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:25:44.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T14:48:43.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:48:36.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T14:47:57.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAQwNUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T05:12:25.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\AKshu\\HospitalManagementSystem - Chngess\\HospitalManagementSystem\\HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T05:48:28.296Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

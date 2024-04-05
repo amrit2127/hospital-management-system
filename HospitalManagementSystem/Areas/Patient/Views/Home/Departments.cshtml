@@ -1,0 +1,50 @@
+﻿@model IEnumerable<HospitalManagementSystem.Models.Department>
+
+<div class="row" />
+<div class="text-center text-w">
+    <div class="text-right">
+        <form class="d-inline">
+            <div class="form-row justify-content-end">
+                <div class="col-auto">
+                    <input class="form-control" name="search" placeholder="Search" />
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row ">
+        @foreach (var department in Model)
+        {
+            <div class="col-lg-3 col-md-6">
+                <div class="row p-2">
+                    <div class="col-12  p-1" style="border:1px solid #008cba; border-radius: 5px;">
+                        <div class="card" style="border:0px;">
+                            <img src="@department.ImageUrl" height="400px" width="600px" class="card-img-top rounded" />
+                            <div class="pl-1">
+                                <p class="card-title h5"><b style="color:#2c3e50">@department.Name</b></p>
+                              
+                            </div>
+                        </div>
+
+                        <a asp-action="Doctors" asp-controller="Home" asp-area="Patient" class="btn btn-success btn-square btn-lg form-control"
+                           style="height:50px;">
+                           Doctors List
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/department.js"></script>
+}
+
+
+
+

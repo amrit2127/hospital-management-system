@@ -1,0 +1,95 @@
+﻿@model HospitalManagementSystem.Models.ViewModels.DepartmentVM
+@{
+    ViewData["Title"] = "Upsert";
+    var title = Model.Department.Id != 0 ? "Edit Department" : "New Department";
+}
+<div>
+    <h2 class="text-black fw-bold text-lg-start">@title</h2>
+</div>
+<div class="row container">
+    <div class="col-sm-6">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (Model.Department.Id != 0)
+            {
+                <input type="hidden" asp-for="@Model.Department.Id" />
+            }
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Department.Name"></label>
+                <input asp-for="Department.Name" class="form-control" />
+                <span asp-validation-for="Department.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Department.Description"></label>
+                <textarea asp-for="Department.Description" rows="2" class="form-control"></textarea>
+                <span asp-validation-for="Department.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Department.ImageUrl"></label>
+                <input type="file" name="files" id="uploadBox" multiple class="form-control" />
+                @*   <span asp-validation-for="Hospital.Country" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                <label class="text-dark fw-bold" asp-for="Department.HospitalId"></label>
+                @Html.DropDownListFor(m => Model.Department.HospitalId, Model.HospitalList, "Select Hospital", new { @class = "form-control" })
+                <span asp-validation-for="Department.HospitalId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                @if (Model.Department.Id != 0)
+                {
+                    <partial name="_EditAndBackToListButton" />
+                }
+                else
+                {
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" onclick="return ValData()" class="btn btn-info form-control">Save</button>
+                        </div>
+
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-success form-control">
+                                Back To List
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-6">
+        @if (Model.Department.ImageUrl != null)
+        {
+            <img src="@Model.Department.ImageUrl" height="250" width="250" />
+        }
+    </div>
+</div>
+
+
+
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/ne2gvt6wosycl0kuf5clobb4b1lmrluikc2iphrn6qn4dp7i/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: "textarea",
+            plugins: "lists",
+            menubar: "file edit format"
+        })
+
+        function ValData() {
+            if (document.getElementById('uploadBox').value == "") {
+                swal("error", "Please Select Image !!!", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

@@ -1,0 +1,23 @@
+﻿@model int
+@{
+    var total = TempData["Total"] as int?;
+}
+
+<div>
+    <h2>Congratulations!!! </h2>
+    <br/>
+    <h3>Your Booking is Confirmed</h3>
+
+    <img src="~/images/hospitals.jpg" height="50%" width="50%"/>
+
+    @if (total.HasValue)
+    {
+        <h3>Your total amount is @total</h3>
+        <p>your ticket no is @Model</p>
+    }
+    else
+    {
+        <h3>Unable to retrieve the Total value.</h3>
+    }
+    <a class="btn btn-info" asp-controller="Home" asp-action="Index">Back To Home</a>
+</div>
